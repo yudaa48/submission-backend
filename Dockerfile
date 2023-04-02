@@ -17,7 +17,7 @@ RUN npm install
 COPY . ./
 
 # Expose the node.js port to the Docker host.
-# EXPOSE 9000
+EXPOSE 9000
 
 # Run the web service on container startup.
 CMD [ "npm", "start" ]
